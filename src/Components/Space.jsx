@@ -9,7 +9,7 @@ function Space() {
             <div className="row">
               <div className="col-md-6">
                 <div className="speech-container">
-                  <button type="button" className="btn btn-purple">
+                  <button type="button" className="btn btn-purple screen">
                     Welcome All In My Portfolio
                   </button>
 

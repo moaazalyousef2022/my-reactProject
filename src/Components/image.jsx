@@ -6,7 +6,7 @@ function image({ path }) {
       <div className="featured-img  ">
         <div className="overlay-img">
           <img
-            src={path}
+            src={process.env.PUBLIC_URL + path}
             alt="mo3az"
             className="img-thumbnail featured-photo"
             style={{ borderRadius: '15px', height: '220px', width: '360px' }}

@@ -3,10 +3,6 @@ import { Link as LinkTo } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
-  const navigateToSkills = () => {
-    window.location.href = '/#Skills';
-  };
-
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style={{ zIndex: 5, opacity: 0.6 }}>
       <div className="container-fluid">
@@ -41,7 +37,6 @@ function Navbar() {
                 duration={500}
                 className="nav-link"
                 style={{ cursor: 'pointer' }}
-                onClick={navigateToSkills}
               >
                 Skills
               </LinkTo>
